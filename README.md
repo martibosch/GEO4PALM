@@ -3,6 +3,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8062321.svg)](https://doi.org/10.5281/zenodo.8062321)
 
+**Attention:** No questions/issues will be answered via email from Feb 2025. All users should use the issue/discussions feature via GitHub. Please go through the previous issues to check your question was not already answered before open a new issue.
 
 GEO4PALM is a Python tool that lets PALM users to download and preprocess geospatial data easier. GEO4PALM accepts all geospatial input files in geotiff or shp format. Once users have their own input data ready, GEO4PALM can convert such input data into PALM static driver. The instruction below works for Linux operation system. For Windows and MacOS, some minor adjustments may need to be done by users themselves.
 
@@ -36,12 +37,12 @@ To install `terracatalogueclient`, users need to follow the following steps:
 ```
 2. Copy the pip path for the geo4palm environment (namely, `/home/user/miniconda3/envs/geo4palm/bin/pip` in this example). Then try:
 
-`<pip path> install terracatalogueclient -i https://artifactory.vgt.vito.be/api/pypi/python-packages/simple`
+`<pip path> install terracatalogueclient -i https://artifactory.vgt.vito.be/api/pypi/python-packages-public/simple`
 
 e.g. 
 
 ```
-/home/user/miniconda3/envs/geo4palm/bin/pip install terracatalogueclient -i https://artifactory.vgt.vito.be/api/pypi/python-packages/simple
+/home/user/miniconda3/envs/geo4palm/bin/pip install terracatalogueclient -i https://artifactory.vgt.vito.be/api/pypi/python-packages-public/simple
 ```
 
 TerraCatalogue client is for ESA land use API. More information can be found [here](https://vitobelgium.github.io/terracatalogueclient/installation.html).
